@@ -1,0 +1,141 @@
+html,
+body {
+    background-color: #2f3848;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header__title {
+    color: #00ccff;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+    background-color: #004488;
+    font-weight: bold;
+    border-radius: 0 0 7px 7px;
+    border-bottom: 3px solid #00ccff;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item,
+.social__item {
+    display: inline-block;
+}
+
+.menu__item__link {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.social__item__link__img {
+    height: 24px;
+    margin-left: 10px;
+}
+
+.intro__title {
+    color:#00ccff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.intro__text {
+    color: #00ccff;
+    font-weight: bold;
+}
+
+.cam-of-the-week {
+    position: relative;
+}
+
+.cam-of-the-week__title {
+    background-color: #004488;
+    color: #00ccff;
+    position: absolute;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+}
+
+.gallery-submit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    align-items: flex-start;
+}
+
+.gallery {
+    width: 65%;
+}
+
+.submit {
+    width: 30%;
+}
+
+.gallery__thumbnail {
+    width: calc(25% - 8px);
+    /* width: 25%; */
+    margin: 0 8px 8px 0;
+    float: left;
+}
+
+.gallery__thumbnail:first-child {
+    width: calc(50% - 8px);
+}
+
+.gallery__thumbnail:nth-child(15) {
+    border: 4px solid #00ccff;
+}
+
+.submit {
+    background-color: #004488;
+    padding: 1em;
+}
+
+.submit__title {
+    color: #00ccff;
+    border-bottom: 2px solid #00ccff;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.submit__text {
+    color: #00ccff;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.footer {
+    margin-top: 3em;
+    text-align: center;
+    color: #00ccff;
+    font-weight: bold;
+}
+
+.footer__heart {
+    font-size: 1.5em;
+}
